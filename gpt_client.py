@@ -1,7 +1,8 @@
 import openai
 from config import OPENAI_API_KEY
+import os
 
-openai.api_key = OPENAI_API_KEY
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def parse_user_input(user_message):
     prompt = f"""
