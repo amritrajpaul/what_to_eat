@@ -39,3 +39,6 @@ typing_extensions==4.12.2
 urllib3==2.2.3
 Werkzeug==3.0.4
 yarl==1.11.1
+python-telegram-bot==21.6
+
+
