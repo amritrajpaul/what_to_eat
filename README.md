@@ -1,5 +1,5 @@
 
-# Food Recommendation Bot
+# Food Recommendation Bot (`what_to_eat`)
 
 `what_to_eat` is a Telegram bot that provides personalized meal suggestions and recipes based on user inputs. Users can interact with the bot to get meal options, select recipes, and receive customized recommendations.
 
