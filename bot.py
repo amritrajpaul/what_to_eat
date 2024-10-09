@@ -48,7 +48,7 @@ async def help_command(update: Update, context: CallbackContext) -> None:
         "3️⃣ *Meal Type and Cuisine*\n"
         "You can specify the type of meal you're looking for (e.g., breakfast, lunch, dinner) and the cuisine you prefer (e.g., Indian, Bengali, Chinese).\n"
         "_Examples:_\n"
-        f"`{BOT_PREFIX} Suggest a Bengali dinner option.`\n"
+        f"`{BOT_PREFIX} Suggest North Indian or Bengali or Assamese dinner options.`\n"
         f"`{BOT_PREFIX} I want an Indian breakfast using potatoes.`\n\n"
 
         "4️⃣ *Get a Recipe*\n"

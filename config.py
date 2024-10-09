@@ -10,7 +10,7 @@ TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', 'your_telegram_bot_tok
 # TWILIO_AUTH_TOKEN = os.environ.get('TWILIO_AUTH_TOKEN', 'your_twilio_auth_token')
 
 # Bot Prefix
-BOT_PREFIX = 'badobadi'
+BOT_PREFIX = 'yumyoda'
 
 # Number of options to provide
 NUM_OPTIONS = 10
