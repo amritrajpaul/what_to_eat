@@ -1,9 +1,16 @@
+from dotenv import load_dotenv
 import os
 
+load_dotenv()
+
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+
+
 # OpenAI API Key
-OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY', 'your_openai_api_key')
+# OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY', 'your_openai_api_key')
 # Telegram Bot Token
-TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', 'your_telegram_bot_token')
+# TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', 'your_telegram_bot_token')
 
 # Twilio Auth Token and Account SID (if needed)
 # TWILIO_ACCOUNT_SID = os.environ.get('TWILIO_ACCOUNT_SID', 'your_twilio_account_sid')
